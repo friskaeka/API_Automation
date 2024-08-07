@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb471fbc-dbe8-426e-ac94-d64ebdab8515" name="Changes" comment="" />
+    <list default="true" id="fb471fbc-dbe8-426e-ac94-d64ebdab8515" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Feature/api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Feature/api.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/EndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/EndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/JsonSchemaData/get_list_users_normal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/JsonSchemaData/get_list_users_normal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/JsonSchemaData/post_create_user_normal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/JsonSchemaData/post_create_user_normal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/Models.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/Models.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ApiPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ApiPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ApiRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ApiRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/ApiStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ApiStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/Hooks.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,26 +29,198 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FinalProject" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2kBrKhIAqM6b0VYlsJveD2BoZTM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/HP/IdeaProjects/FinalProject/src/main/java/org/friska/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Cucumber Java.Feature: api.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Test Get List Data Normal.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Test create New User Normal.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Test create New User Wrong.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ApiRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build API Automation.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build FinalProject.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FinalProject [:Main.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.FinalProject [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/IdeaProjects/API Automation&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/HP/IdeaProjects/FinalProject/src/main/java/org/friska/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\FinalProject\src\test\java\stepDef" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Test create New User Wrong">
+    <configuration name="Feature: api" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature/api.feature" />
+      <option name="GLUE" value="stepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="FinalProject.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: api" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Test Get List Data Normal" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature/api.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="FinalProject.test" />
+      <option name="NAME_FILTER" value="^Test Get List Data Normal$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Test Get List Data Normal$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Test Get List Data Normal" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Test create New User Normal" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature/api.feature" />
+      <option name="GLUE" value="stepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="FinalProject.test" />
+      <option name="NAME_FILTER" value="^Test create New User Normal$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Test create New User Normal$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Test create New User Normal" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Test create New User Wrong" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature/api.feature" />
+      <option name="GLUE" value="stepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="FinalProject.test" />
+      <option name="NAME_FILTER" value="^Test create New User Wrong$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Test create New User Wrong$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Test create New User Wrong" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalProject [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="API Automation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="API Automation" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Test create New User Wrong" />
+        <item itemvalue="Cucumber Java.Scenario: Test create New User Normal" />
+        <item itemvalue="Cucumber Java.Feature: api" />
+        <item itemvalue="Cucumber Java.Scenario: Test Get List Data Normal" />
+        <item itemvalue="Gradle.FinalProject [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,15 +232,10 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/friska/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FinalProject$ApiRunner.ic" NAME="ApiRunner Coverage Results" MODIFIED="1722774823384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
