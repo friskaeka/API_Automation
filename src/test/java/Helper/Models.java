@@ -1,6 +1,5 @@
 package Helper;
 
-import com.fasterxml.jackson.databind.util.JSONPObject;
 import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.response.Response;
@@ -17,7 +16,6 @@ public class Models {
                 .header("Content-Type", "application/json")
                 .header("Accept", "application/json")
                 .header("Authorization", "Bearer 3dd65d663e13c669085fb30613d83761d64be5b230a6f6e5f98f4c0f29d02885");
-
     }
 
     public static Response getListUser(String endpoint){
@@ -36,8 +34,19 @@ public class Models {
         payload.put("email", email);
         payload.put("status", status);
 
+        System.out.println("Payload yang dikirim: " + payload.toString());
+
+        // Setup headers
         setupHeaders();
-        return request.body(payload.toString()).when().post(endpoint);
+
+        // Mengirim request dan menyimpan respons
+        Response res = request.body(payload.toString()).when().post(endpoint);
+
+        // Mencetak respons dari API
+        System.out.println("Respons dari API: " + res.getBody().asString());
+
+        // Mengembalikan respons
+        return res;
     }
 
 

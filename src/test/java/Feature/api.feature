@@ -20,8 +20,8 @@ Feature: Test Automation API
   Scenario: Test create New User Wrong
     Given prepare url valid for "CREATE_NEW_USER"
     And hit api post create wrong new user
-    Then validation status code is equal 201
-    Then validation response body post create new user
-    Then validation response json with JSONschema "post_create_user_normal.json"
+    Then validation status code is equal 422
+#    Then validation response body post create new user
+    Then validation response json with JSONschema "post_create_user_wrong.json"
 
 

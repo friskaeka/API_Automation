@@ -71,6 +71,21 @@ public class ApiPage {
         res.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(JSONFile));
     }
 
+    public void validationResponseBodyPostCreateNewUserWrong(){
+        JsonPath jsonPathEvaluator = res.jsonPath();
+        Integer id = jsonPathEvaluator.get("id");
+        String name = jsonPathEvaluator.get("name");
+        String email = jsonPathEvaluator.get("email");
+        String gender = jsonPathEvaluator.get("gender");
+        String status = jsonPathEvaluator.getString("status");
+
+        assertThat(id).isNotNull();
+        assertThat(name).isNotNull();
+        assertThat(email).isNotNull();
+        assertThat(gender).isIn("female", "male");
+        assertThat(status).isIn("active","inactive");
+    }
+
     public void validationResponseBodyPostCreateNewUser(){
         JsonPath jsonPathEvaluator = res.jsonPath();
         Integer id = jsonPathEvaluator.get("id");
@@ -84,6 +99,5 @@ public class ApiPage {
         assertThat(email).isNotNull();
         assertThat(gender).isIn("female", "male");
         assertThat(status).isIn("active","inactive");
-
     }
 }

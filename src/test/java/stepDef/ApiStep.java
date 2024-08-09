@@ -27,7 +27,7 @@ public class ApiStep {
     @Then("validation status code is equal {int}")
     public void validationStatusCodeIsEqual(int status_code) {
         apiPage.validationStatusCodeIsEqual(status_code);
-        
+        System.out.println("status code " + status_code);
     }
 
     @Then("validation response body get list user")
@@ -55,5 +55,10 @@ public class ApiStep {
     @And("hit api post create wrong new user")
     public void hitApiPostCreateWrongNewUser() {
         apiPage.hitApiPostCreateWrongNewUser();
+    }
+
+    @Then("validation response body post create new user wrong")
+    public void validationResponseBodyPostCreateNewUserWrong() {
+        apiPage.validationResponseBodyPostCreateNewUserWrong();
     }
 }

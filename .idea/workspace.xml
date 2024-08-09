@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb471fbc-dbe8-426e-ac94-d64ebdab8515" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Helper/JsonSchemaData/post_create_user_wrong.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Feature/api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Feature/api.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/EndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/EndPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/JsonSchemaData/get_list_users_normal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/JsonSchemaData/get_list_users_normal.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/JsonSchemaData/post_create_user_normal.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/JsonSchemaData/post_create_user_normal.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Helper/Models.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/Models.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/ApiPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ApiPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ApiRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ApiRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/ApiStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/ApiStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDef/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDef/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +74,14 @@
     &quot;Cucumber Java.Scenario: Test create New User Wrong.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.ApiRunner.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Build API Automation.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build API_Automation.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Build FinalProject.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.FinalProject [:Main.main()].executor&quot;: &quot;Debug&quot;,
     &quot;Gradle.FinalProject [dependencies].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/IdeaProjects/API Automation&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/API_Automation&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/HP/IdeaProjects/FinalProject/src/main/java/org/friska/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -215,8 +211,8 @@
       <list>
         <item itemvalue="Cucumber Java.Scenario: Test create New User Wrong" />
         <item itemvalue="Cucumber Java.Scenario: Test create New User Normal" />
-        <item itemvalue="Cucumber Java.Feature: api" />
         <item itemvalue="Cucumber Java.Scenario: Test Get List Data Normal" />
+        <item itemvalue="Cucumber Java.Feature: api" />
         <item itemvalue="Gradle.FinalProject [dependencies]" />
       </list>
     </recent_temporary>
